@@ -24,6 +24,11 @@ int main(int argc, char* argv[])
 }
 ```
 
+```Bash
+$gcc main.cpp -l sqlite3
+$./a.out
+```
+
 License
 --------
 
