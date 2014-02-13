@@ -27,6 +27,88 @@ int main(int argc, char* argv[])
 ```Bash
 $ gcc main.cpp -l sqlite3
 $ ./a.out
+$ RocKK$ ./a.out 
+//=====CreateTable=====//
+Opened database successfully
+Operation done successfully
+//=====Insert=====//
+Opened database successfully
+Operation done successfully
+//=====Select=====//
+Opened database successfully
+Callback function called: ID = 1
+NAME = Paul
+AGE = 32
+ADDRESS = California
+SALARY = 20000.0
+
+Callback function called: ID = 2
+NAME = Allen
+AGE = 25
+ADDRESS = Texas
+SALARY = 15000.0
+
+Callback function called: ID = 3
+NAME = Teddy
+AGE = 23
+ADDRESS = Norway
+SALARY = 20000.0
+
+Callback function called: ID = 4
+NAME = Mark
+AGE = 25
+ADDRESS = Rich-Mond 
+SALARY = 65000.0
+
+Operation done successfully
+//=====Update=====//
+Opened database successfully
+Callback function called: ID = 1
+NAME = Paul
+AGE = 32
+ADDRESS = California
+SALARY = 25000.0
+
+Callback function called: ID = 2
+NAME = Allen
+AGE = 25
+ADDRESS = Texas
+SALARY = 15000.0
+
+Callback function called: ID = 3
+NAME = Teddy
+AGE = 23
+ADDRESS = Norway
+SALARY = 20000.0
+
+Callback function called: ID = 4
+NAME = Mark
+AGE = 25
+ADDRESS = Rich-Mond 
+SALARY = 65000.0
+
+Operation done successfully
+//=====Delete=====//
+Opened database successfully
+Callback function called: ID = 1
+NAME = Paul
+AGE = 32
+ADDRESS = California
+SALARY = 25000.0
+
+Callback function called: ID = 3
+NAME = Teddy
+AGE = 23
+ADDRESS = Norway
+SALARY = 20000.0
+
+Callback function called: ID = 4
+NAME = Mark
+AGE = 25
+ADDRESS = Rich-Mond 
+SALARY = 65000.0
+
+Operation done successfully
 ```
 
 License
